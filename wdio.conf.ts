@@ -60,7 +60,6 @@ export const config: WebdriverIO.Config = {
         'appium:platformVersion': '12.0',
         'appium:automationName': 'UiAutomator2'
     }],
-
     //
     // ===================
     // Test Configurations
