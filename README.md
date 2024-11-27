@@ -4,10 +4,10 @@ Page Object Model (POM): The project is structured to use POM.
 
 # Tools Used:
 
-WebdriverIO
-Cucumber Framework
-TypeScript 
-appium
+WebdriverIO,
+Cucumber Framework,
+TypeScript, 
+appium,
 
 # Setup Instructions
 
