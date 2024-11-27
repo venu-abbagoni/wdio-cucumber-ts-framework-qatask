@@ -12,7 +12,7 @@ Given('the user is on the {string} page', async (page: string) => {
 });
 
 When('the user enters a valid table number', async () => {
-  await tableSelectionPage.enterTableNumber('102'); // Replace with the actual valid table number
+  await tableSelectionPage.enterTableNumber('102'); 
 });
 
 When('the user clicks on the {string} button', async (button: string) => {
@@ -23,7 +23,7 @@ When('the user clicks on the {string} button', async (button: string) => {
 
 Then('the user should be taken to the {string} page', async (page: string) => {
   if (page === "Main Menu") {
-    await mainMenuPage.validateOnMainMenuPage(); // Ensure we're on the Main Menu page
+    await mainMenuPage.validateOnMainMenuPage(); 
   }
 });
 
