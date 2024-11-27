@@ -9,6 +9,7 @@ Cucumber Framework,
 TypeScript, 
 appium,
 
+
 # Setup Instructions
 
 Clone the repository:
@@ -45,3 +46,10 @@ appium
 
 npm test    
 
+
+# How It Works
+Feature File: The tableSelection.feature contains the Gherkin scenario to simulate user actions on the table selection page.
+Step Definitions: The tableSelection.steps.js file implements the Gherkin steps to automate the scenario.
+Page Objects:
+TableSelectionPage.js: Contains methods for interacting with the table selection page.
+MainMenuPage.js: Contains methods for verifying the main menu page.
